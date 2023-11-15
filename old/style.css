@@ -9,13 +9,15 @@
 }
 body{
     padding-top: 10px;
-    padding: 10px 20px 0 20px;
     background: #241e51;
+}
+table{
+    margin: 0 auto;
 }
 header{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     text-align: center;
 }
 header h1{
