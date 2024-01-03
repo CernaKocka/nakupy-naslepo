@@ -5,7 +5,22 @@
   <title>Nákupy Naslepo - Kontakt</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css " rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
-<body style="background-color: #241e51; display: flex; align-items: center; height: 100vh">
+<body>
+  <style>
+    /* Co jsem se dočetl tak v bootstrapu to přímo dělat nejde */
+    body{
+        background-color: #241e51;
+    }
+    .naslepo{
+        background-color: #F99417;
+    }
+    a{
+        text-decoration: none;
+    }
+</style>
+<header class="text-white py-3">
+    <h1 class="text-center h2"><a class="text-white fw-bold" href="../index.html">Nákupy <span class="naslepo px-2 py-1 text-dark rounded-3">naslepo</span></a></h1>
+</header>
   <main class="container" style="max-width: 400px;">
     <div class="card">
       <div class="card-header">Kontaktní informace</div>
@@ -54,5 +69,8 @@
       </table>
     </div>
   </main>
+  <footer class="bg-body-tertiary text-center text-light fixed-bottom" >
+    <div class="text-center p-3">© 2023 Nákupy Naslepo s.r.o</div>
+  </footer>
 </body>
 </html>

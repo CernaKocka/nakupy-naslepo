@@ -15,12 +15,15 @@
         .naslepo{
             background-color: #F99417;
         }
+        .naslepo:hover{
+            background-color: #F99417;
+        }
         a{
             text-decoration: none;
         }
     </style>
     <header class="text-white py-3">
-        <h1 class="text-center h2"><a class="text-white fw-bold" href="index.html">Nákupy <span class="naslepo p-2 text-dark rounded-3">naslepo</span> s.r.o.</a></h1>
+        <h1 class="text-center h2"><a class="text-white fw-bold" href="../index.html">Nákupy <span class="naslepo px-2 py-1 text-dark rounded-3">naslepo</span></a></h1>
     </header>
 
     <main>
@@ -76,8 +79,11 @@
                 <textarea type="text" id="poznamka" name="poznamka" rows="5" class="form-control"></textarea>
             </div>
 
-            <button type="submit" class="btn btn-primary">Odeslat objednávku</button>
+            <button type="submit" class="btn naslepo border-0 text-dark fw-bold">Odeslat objednávku</button>
         </form>
     </main>
+    <footer class="bg-body-tertiary text-center text-light fixed-bottom fw-normal" >
+        <div class="text-center p-3">© 2023 Nákupy Naslepo s.r.o</div>
+      </footer>
 </body>
 </html>
